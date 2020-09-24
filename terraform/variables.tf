@@ -20,10 +20,6 @@ variable "wordpress_instances" {
       name = "wp-vanilla"
       image = "wordpress:5.3.2-php7.3"
     },
-    {
-      name = "wp-vanilla-wp49-php56"
-      image = "wordpress:4.9.8-php5.6"
-    },
   ]
 }
 
