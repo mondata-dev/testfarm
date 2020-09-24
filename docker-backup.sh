@@ -3,7 +3,7 @@
 DATADIR=`pwd`/data
 SCRIPTDIR=`pwd`/scripts
 
-cd docker
+cd terraform
 cd `terraform output volume_base_dir`
 
 backup_dir()
