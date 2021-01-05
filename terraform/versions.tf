@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     docker = {
-      source = "terraform-providers/docker"
+      source = "kreuzwerker/docker"
     }
     null = {
       source = "hashicorp/null"
@@ -10,5 +10,5 @@ terraform {
       source = "hashicorp/random"
     }
   }
-  required_version = ">= 0.13"
+  required_version = ">= 0.14.3"
 }
