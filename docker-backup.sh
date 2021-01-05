@@ -4,7 +4,7 @@ DATADIR=`pwd`/data
 SCRIPTDIR=`pwd`/scripts
 
 cd terraform
-cd `terraform output -raw volume_base_dir | tr -d '""'`
+cd `terraform output volume_base_dir | tr -d '""'`
 
 backup_dir()
 {
