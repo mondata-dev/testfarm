@@ -1,4 +1,5 @@
 #!/bin/sh
+set -eu
 
 DATADIR=`pwd`/data
 SCRIPTDIR=`pwd`/scripts
